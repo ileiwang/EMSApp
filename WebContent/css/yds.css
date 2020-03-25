@@ -1,0 +1,1523 @@
+/* yedushu.com */
+body {
+  color: #525252;
+  font-family: "Microsoft YaHei", "微软雅黑", Arial, verdana, Tahoma;
+  font-style: normal;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  display: table;
+  width: 100%;
+}
+#navtop {
+  font-size: 10pt;
+  height: 30px;
+  line-height: 30px;
+  background-color: #15A230;
+  width: 100%;
+  display: table;
+}
+#navtop a:hover {
+  color: #DDD;
+}
+.wp1080{
+    width: 1080px;
+    margin: 0px auto;
+}
+#navtop .yds_channels {
+    float: left;
+}
+#navtop .yds_channels ul li.item {
+    margin: 0px 16px 0px 0px;
+    line-height: 30px;
+}
+#navtop .yds_channels ul, ol{  
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+#navtop a {
+    text-decoration: none;
+    color: #FFF;
+}
+#navtop .yds_userbar {
+    float: right;
+    color: #DDD;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+a {
+  background-color: transparent;
+  color: #f4645f;
+  text-decoration: none; 
+}
+
+a:link {
+  outline: none;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0.67em 0;
+  font-size: 48px;
+  font-weight: 200; }
+
+p {
+  margin: 0; }
+
+.docs .slide-main-nav .nav-docs {
+  display: none; }
+
+footer.main {
+  background: #fafafa;
+  padding: 35px 20px;
+  text-align: center; }
+  footer.main > ul {
+    list-style: none;
+    margin: 25px 0;
+    padding: 0;
+  }
+    footer.main > ul > li {
+      display: inline-block;
+      margin: 0 18px; }
+      footer.main > ul > li > a {
+        font-size: 16px;
+        color: #525252; }
+        footer.main > ul > li > a:hover {
+          color: #f4645f; }
+  footer.main p {
+    color: #aeaeae;
+    font-size: 16px;
+    margin-bottom: 10px; }
+    footer.main p a {
+      color: #525252; }
+      footer.main p a:hover {
+        color: #f4645f; }
+  footer.main p.less-significant a {
+    color: #c8c8c8;
+    font-size: 14px; }
+    footer.main p.less-significant a:hover {
+      color: #f4645f; }
+
+nav.main {
+  padding: 0px;
+  display: table;
+  height: 90px;
+  width: 100%;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #EEE; }
+
+  nav.main:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+  nav.main a.brand {
+    color: #e74430;
+    font-size: 21px;
+    float: left;
+    line-height: 90px;
+    margin-right: 30px; }
+    nav.main a.brand img {
+      position: relative;
+      top: 7px;
+      margin-right: 15px; }
+
+  nav.main ul.main-nav {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: right; }
+    nav.main ul.main-nav > li {
+      display: inline-block;
+      margin: 0 10px; }
+      nav.main ul.main-nav > li > a {
+        line-height: 90px;
+        font-size: 16px;
+        color: #525252; }
+        nav.main ul.main-nav > li > a:hover {
+          color: #f4645f; }
+      nav.main ul.main-nav > li.active a {
+        color: #f4645f; }
+
+.docs article {
+  padding: 10px 25px 25px 5px;
+  margin-right: 0px;
+  width: 800px;
+  float: left;
+}
+
+/*首页样式*/
+.section {
+    margin-bottom: 1px;
+}
+
+.section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;    
+}
+
+h2 .link-more {
+    font: 12px Arial,Helvetica,sans-serif;
+    line-height: 150%;
+    color: #666;
+    padding-left: 10px;
+}
+
+.ibklist {
+    padding: 0px;
+}
+
+.ibklist .list-col {
+    padding: 0;
+    margin: 0;
+}
+
+.ibklist ul, li {
+    list-style-type: none;
+}
+
+.ibklist li {  
+    display: inline-block; /*列表换行*/
+    margin: 0 18px 15px 0;
+}
+.ibklist .title {
+    font-size: 13px;
+    margin-bottom: 1px;
+}
+.ibklist .author {
+    color: #333;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+/*首页长书评列表*/
+.reviewsindex h1 {
+    border-bottom: 1px solid #CCC;
+    margin: 0px 0px 10px;
+    padding-bottom: 15px;
+    color: #666;
+    font-weight: 200;
+}
+.reviewsindex h1 .subtitle {
+    font-size: 10pt;
+    font-weight: normal;
+    color: #666;
+    margin-left: 10px;
+}
+.reviewsindex .liec {
+    margin: 0px 0px 10px;
+    border-bottom: 1px dashed #CCC;
+    padding-bottom: 10px;
+}
+.reviewsindex .liec .ydstable {
+    width: 100%;
+    table-layout: fixed;
+}
+.reviewsindex .liec img {
+    width: 90px;
+}
+.reviewsindex .liec .avatar {
+    width: 100px;
+    vertical-align: top;
+}
+.reviewsindex .liec .update {
+    vertical-align: top;
+}
+.reviewsindex .liec .title {
+    font-size: 15px;
+}
+.reviewsindex .liec .name {
+    font-size: 14px;
+}
+.reviewsindex .liec .zhaiyao {
+    padding: 0px 0px 15px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #494949;
+    line-height: 1.5;
+}
+
+/*首页同城换书列表*/
+.tongcheng {
+    padding: 0px;
+}
+.tongcheng .shopmore{
+    float:right;
+}
+.tongcheng .list-col {
+    padding: 0;
+    margin: 0;
+}
+.tongcheng ul, li {
+    list-style-type: none;
+}
+.tongcheng li {  
+    display: inline-block; /*列表换行*/
+    margin: 0 18px 15px 0;
+}
+.tongcheng .title {
+    font-size: 13px;
+    margin-bottom: 1px;
+}
+.tongcheng .price {
+    width: 106px; overflow: hidden; text-overflow:ellipsis; -o-text-overflow:ellipsis; white-space: nowrap;
+    margin-bottom: 6px;  
+}
+.tongcheng .xianjia {
+    color: #DA0000;
+    font-weight: bold;
+    font-size: 12px;
+}
+.tongcheng .yuanjia {
+    text-decoration: line-through;
+    color: #9c9c9c;
+    font-size: 12px;
+    margin-left: 5px;    
+}
+
+.fenlei h2 {
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 3px;
+  margin-bottom: 6px;
+  /*border-bottom: 1px solid #ddd;*/
+}
+ul.unstyled {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.shudan h2 {
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 3px;
+  margin-bottom: 6px;
+  /*border-bottom: 1px solid #ddd;*/
+}
+ul.sdstyled {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+/*首页end*/
+
+.sidebar {
+  /*border-left: 1px solid #f0f2f1; 竖线*/
+  width: 250px;
+  float: right;
+  padding:  35px 5px 0px 1px;
+}
+
+.docs-wrapper {
+  overflow: hidden; 
+  min-height: 450px;
+}
+
+.daohang {
+  max-width: 1080px;
+  margin: 0 auto; 
+}
+/*图书分类标签*/
+.tags {
+  margin: 0 auto;
+  padding: 20px 0 0;
+}
+.tags h1 {
+    word-wrap: break-word;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #494949;
+    margin: 0;
+    padding: 0 0 5px 0;
+    line-height: 1.1;
+}
+/*图书列表页显示样式*/
+.mod {
+  width: auto;
+  border-color: #E8E8E8 -moz-use-text-color -moz-use-text-color;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+  margin-top: 10px;
+  padding: 0px;
+  box-shadow: none;
+  color: #666;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+.mod dl {
+  margin: 0px;
+  padding: 15px 0px;
+  border-top: 1px dashed #E8E8E8;
+  overflow: hidden;
+  *zoom:1
+}
+
+.mod dt {
+  float: left;
+  margin-right: 12px;
+}
+
+.mod dd {
+    overflow: hidden;
+    *zoom:1
+}
+
+.book-list dl img {
+  /* max-width:80px;
+  max-height:110px; */
+  width:90px;
+  height:131;
+}
+
+.mod .title {
+  font-size: 16px;
+  font-weight: blod;
+  line-height:1.5;
+}
+
+.mod .desc {
+  font-size: 14px;
+  font-weight: blod;
+  line-height:1.5;
+}
+
+.mod .rating_nums {
+  font-size: 13px;
+  font-weight: blod;
+  line-height:1.5;
+}
+.blank5 {
+  /* 行间距 */
+  padding-top: 15px;
+}
+
+/* 页面左边二维码 */
+.wx
+{
+background:url(../../images/ydswx.jpg);
+background-size:150px 150px;
+-moz-background-size:150px 150px; /* 老版本的 Firefox */
+background-repeat:no-repeat;
+padding-top:150px;
+}
+
+/* 用的bootstrap的分页 */
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  z-index: 3;
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.pagination-lg > li > a,
+.pagination-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.pagination-sm > li > a,
+.pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* 图书信息页 */
+.binfo {
+  float: left;
+  width: 755px;
+  margin-top: 20px;
+}
+.bsidebar {
+  width: 300px;
+  float: right;
+  padding:  35px 5px 0px 1px;
+}
+
+.infotitle h1 {
+  word-wrap: break-word;
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  color: #494949;
+  margin: 0px;
+  padding: 15px 0px 0px 5px;
+  line-height: 1.1;
+}
+.info {
+  padding: 15px 25px 25px 5px;
+  width: 520px;
+  float: left;
+}
+
+.info .indent img {
+  float: left;
+  text-align: center;
+  margin: 3px 12px 0px 0px;
+  max-width: 150px;
+  overflow: hidden;
+}
+
+.info1 {
+  float: left;
+  max-width: 320px;
+  word-wrap: break-word;
+}
+
+.info1 .p1 {
+  font: 15px "Microsoft YaHei", "微软雅黑", Arial, verdana, Tahoma;
+  color: #666;
+  font-style: normal;
+}
+#interest_sectl {
+    padding: 0px 0px 0px 15px;
+    border-left: 1px solid #EAEAEA;
+    color: #9B9B9B;
+    float: left;
+    width: 155px;
+    margin: 15px 0px 0px;
+    padding: 0px 0px 0px 15px;
+}
+#interest_sectl .rating_wrap {
+    font-size: 12px;
+    line-height: 14px;
+    padding-bottom: 15px;
+}
+#interest_sectl .rating_wrap .rating_logo {
+    line-height: 1;
+    font-size: 14px;
+}
+#interest_sectl .rating_self {
+    padding: 0px;
+    line-height: 2;
+}
+#interest_sectl .rating_num {
+    color: #494949;
+    padding: 0px;
+    width: 30%;
+    font-size: 28px;
+    float: left;
+}
+#interest_sectl .rating_right {
+    float: left;
+    padding: 10px 0px 10px 1px;
+    line-height: 1.2;
+}
+.starstop {
+    float: left;
+    margin-right: 5px;
+}
+#interest_sectl .power {
+    height: 10px;
+    float: left;
+    margin: 1px 4px;
+    background: #FFD596 none repeat scroll 0px 0px;
+}
+#interest_sectl .rating_per {
+    font-size: 11px;
+}
+.bigstar50, .bigstar45, .bigstar40, .bigstar35, .bigstar30, .bigstar25, .bigstar20, .bigstar15, .bigstar10, .bigstar05, .bigstar00 {
+    display: inline-block;
+    background: transparent url("/images/ic_rating_m.png") no-repeat scroll 0% 0%;
+    width: 75px;
+    height: 15px;
+    margin: 1px 0px 0px;
+    overflow: hidden;
+}
+.bigstar00 {
+    background-position: 0px -150px;
+}
+.bigstar05 {
+    background-position: 0px -135px;
+}
+.bigstar10 {
+    background-position: 0px -120px;
+}
+.bigstar15 {
+    background-position: 0px -105px;
+}
+.bigstar20 {
+    background-position: 0px -90px;
+}
+.bigstar25 {
+    background-position: 0px -75px;
+}
+.bigstar30 {
+    background-position: 0px -60px;
+}
+.bigstar35 {
+    background-position: 0px -45px;
+}
+.bigstar40 {
+    background-position: 0px -30px;
+}
+.bigstar45 {
+    background-position: 0px -15px;
+}
+.bigstar50 {
+    background-position:0 0;
+}
+.allstar50, .allstar45, .allstar40, .allstar35, .allstar30, .allstar25, .allstar20, .allstar15, .allstar10, .allstar05, .allstar00, .rating1-t, .rating15-t, .rating2-t, .rating25-t, .rating3-t, .rating35-t, .rating4-t, .rating45-t, .rating5-t, .rating-t, .starb ~ .stars5, .starb ~ .stars4, .starb ~ .stars3, .starb ~ .stars2, .starb ~ .stars1, .collectors .stars5, .collectors .stars4, .collectors .stars3, .collectors .stars2, .collectors .stars1 {
+    display: inline-block;
+    background: transparent url("/images/ic_rating_s.png") no-repeat scroll 0% 0%;
+    width: 55px;
+    height: 11px;
+    margin: 0px 3px 0px 0px;
+    overflow: hidden;
+}
+.allstar00 {
+    background-position: 0px -110px;
+}
+.allstar05 {
+    background-position: 0px -99px;
+}
+.allstar10 {
+    background-position: 0px -88px;
+}
+.allstar15 {
+    background-position: 0px -77px;
+}
+.allstar20 {
+    background-position: 0px -66px;
+}
+.allstar25 {
+    background-position: 0px -55px;
+}
+.allstar30 {
+    background-position: 0px -44px;
+}
+.allstar35 {
+    background-position: 0px -33px;
+}
+.allstar40 {
+    background-position: 0px -22px;
+}
+.allstar45 {
+    background-position: 0px -11px;
+}
+.allstar50 {
+    background-position: 0px 0px;
+}
+.interest_sect_level {
+    clear: both;
+    padding: 2px 5px 2px 5px;
+}
+.interest_sect_level .btn{
+    padding: 1px 15px;
+}
+.interest_sect_level .read-state {
+    padding: 4px 4px 0px 0px;
+    font-size: 10pt;
+}
+.interest_sect_level .rating {
+    padding: 4px 4px 0px 0px;
+    font-size: 10pt;
+}
+.interest_sect_level .memo {
+    padding: 4px 4px 0px 0px;
+    font-size: 10pt;
+}
+.xsp {
+    padding: 4px 4px 0px 0px;
+    font-size: 10pt;
+}
+.xsp .subject_menu {
+    margin-left: 5px;
+}
+.xsp .subject_menu img {
+    padding: 3px 4px 0;
+    vertical-align: top;
+  }
+.infoline {
+    margin: 10px 50px 0 1px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.related_info {
+  padding: 15px 10px 25px 5px;
+  margin-right: 5px;
+  float: left;
+}
+
+.related_info .p1 {
+  padding: 0px;
+  margin-right: 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.neirong {
+  padding: 0px 0px 15px;
+  margin-top: 5px;
+  max-width: 790px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #494949;
+  line-height: 26px;
+}
+
+.zuozhe {
+  padding: 0px 0px 15px;
+  margin-top: 5px;
+  max-width: 790px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #494949;
+  line-height: 26px;
+}
+
+.mulu {
+  padding: 0px 0px 15px;
+  margin-top: 5px;
+  max-width: 790px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #494949;
+  line-height: 26px;
+}
+
+/* 搜索框定位 */
+.search {
+  margin:30px 30px 0px;
+  float: left;
+  width: 500px;
+}
+
+/* 备案字体样式 */
+footer.main p.beianaa {
+  color: #C8C8C8;
+  font-size: 12px;
+}
+
+/* 联盟购买样式 */
+.gray_ad {
+  padding-bottom: 6px;
+  background-color: #F6F6F1;
+  background: #F4F4EC none repeat scroll 0% 0%;
+  padding: 10px;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+.buyinfo-printed {
+  margin-bottom: 0px;
+  /*border-bottom: 1px solid #E4E4E4;*/
+}
+#buyinfo h2 {
+    font: 15px/150% "Microsoft YaHei", "微软雅黑", Arial, verdana, Tahoma;
+    font-style: normal;
+    color: #072;
+    margin: 0px 0px 12px;
+    margin-bottom:0px
+}
+#buyinfo .bs {
+    margin: 0px;
+    padding: 0px;
+}
+#buyinfo .bs.more-after {
+    margin-bottom: 10px;
+}
+#buyinfo .bs{
+  margin:0
+}
+#buyinfo ul {
+    list-style-type: none;
+}
+#buyinfo li {
+    position: relative;
+    line-height: 1;
+    border-bottom: 1px dashed #DDD;
+    font: 12px/1.62 Helvetica,Arial,sans-serif;
+}
+.bs.noline li {
+    border: 0px none;
+}
+#buyinfo .bs li {
+    margin: 0px;
+    padding: 4px 0px;
+    overflow: hidden;
+}
+#buyinfo li a {
+    display: block;
+    padding: 6px;
+    border-radius: 3px;
+}
+#buyinfo a:link, a:visited, a:focus {
+    color: #37A;
+}
+.add2cartContainer{height:25px;overflow:hidden;vertical-align:bottom}
+
+#buyinfo li{
+  position:relative;
+  line-height:1;
+  border-bottom:1px dashed #ddd
+}
+#buyinfo li a{
+  display:block;
+  padding:6px;
+  border-radius:3px
+}
+#buyinfo li a:hover{
+  text-decoration: none;
+  color:#fff;background-color:#f7b779;
+  background-image:url(/images/icon-brown.png);background-repeat:no-repeat;
+  background-position:240px center;
+}
+#buyinfo li a:hover .comment,#buyinfo li a:hover .buyinfo-promotion{
+  color:#ab7947;
+}
+#buyinfo .more-info{
+  color:#aaa;margin:6px 0 -2px 0;
+}
+#buyinfo .pl {
+  font: 12px/1.62 Helvetica,Arial,sans-serif;
+  color: #666;
+}
+#buyinfo .cart-tip {
+  float: right;
+  padding-right: 5px;
+  line-height: 25px;
+}
+/*短书评*/
+#comment-list {
+  margin: 0;
+  padding: 0;
+}
+#comment-list .com {
+  margin: 0 10px;
+  font-size: 14px;
+}
+.aw-replay-box {
+  margin: 20px 0px;
+  padding: 0px 10px;
+  float: left;
+  width: 100%;
+  font-size: 15px;
+}
+.aw-replay-box form .mod-head {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    min-height: 32px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    line-height: 28px;
+}
+.aw-replay-box .mod-head .aw-user-name {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.aw-replay-box .mod-head .aw-user-name img {
+    width: 32px;
+    height: 32px;
+    border-radius: 20%;
+}
+.aw-replay-box .mod-head p {
+    height: auto;
+    overflow: hidden;
+    margin: 3px 0px 0px;
+}
+.mod-body-button {
+    position: relative;
+    margin-top: 0;
+    line-height: 28px;
+    float: right;
+}
+.aw-question-comment {
+  /*float:left;*/
+  width: 100%;
+}
+.aw-feed-list {
+    padding: 0px 10px;
+    /*float: left;*/
+    width: 100%;
+}
+.aw-feed-list .aw-item .mod-head {
+    position: relative;
+    width: 100%;
+    padding-left: 60px;
+}
+
+.aw-feed-list .aw-item {
+    position: relative;
+    padding: 14px 0px;
+    border-bottom: 1px solid #F5F5F5;
+}
+.aw-feed-list .aw-user-name {
+    color: #666;
+    font-size: 12px;
+}
+.text-color-999 {
+    color: #999;
+    font-size: 12px;
+}
+.aw-feed-list .aw-item .mod-body {
+    padding-left: 0px;
+    width: 100%;
+    position: relative;
+}
+.markitup-box {
+    position: relative;
+    z-index: 1;
+    font-size: 15px;
+    line-height: 1.6;
+    word-wrap: break-word !important;
+}
+.aw-feed-list .aw-item .aw-user-img img {
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    width: 45px;
+    height: 45px;
+}
+.aw-border-radius-5 img {
+    border-radius: 20%;
+    width: 45px;
+    height: 45px;
+}
+.aw-feed-list .aw-item .mod-footer {
+    min-height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.aw-no-list {
+    font-size: 14px;
+    line-height: 1.6;
+    word-wrap: break-word !important;
+}
+.pull-right {
+    float: right !important;
+}
+/*长书评*/
+#review {
+    margin: 0;
+    /*float: left;*/
+}
+#review .com {
+  margin: 0 10px;
+  font-size: 14px;
+}
+#review .cp-head {
+  margin: 15px 0;
+}
+#review .ctsh {
+  margin: 0;
+  width: 100%;
+  float:left;
+}
+#review .tlst {
+    padding: 5px 0px 10px;
+    margin: 0;
+    overflow: hidden;
+}
+#review .ilst {
+  margin: 0px 10px 0px 0px;
+  float:left;
+}
+#review .cp-title {
+    margin: 0;
+    padding: 2px 0 2px 4px;
+    overflow: hidden;
+    font-size: 15px;
+    background-color: #F6F6F1;
+    float:left;
+    width: 91%;
+}
+#review .user-name {
+    overflow: hidden;
+    margin: 0;
+    padding: 2px 0 2px 4px;
+    font-size: 14px;
+    float: left;
+}
+#review .review-short {
+  margin: 0;
+  padding: 5px 0px;
+  font-size: 15px;
+  width: 100%;
+}
+#review .uptime {
+  margin: 0px;
+  padding: 5px 0px;
+  color: #999;
+  font-size: 12px;
+  float: right;
+  width:100%;
+}
+#review .wz {
+  float:right;
+}
+#review .rating {
+  margin: 0 5px;
+}
+/*评分会员信息*/
+.rating_detail_wrap {
+    padding: 10px 0px 50px;
+}
+.rating_detail_wrap .rating_detail_star {
+    float: left;
+    width: 265px;
+    line-height: 21px;
+}
+.rating_detail_wrap .rating_num {
+    color: #E09015;
+    font-size: 13px;
+    padding: 0px 3px;
+}
+.rating_detail_wrap .fleft {
+    float: left;
+    font-size: 12px;
+}
+.rating_detail_wrap .power {
+    height: 14px;
+    margin: 0px 3px;
+    background: #FFDB88 none repeat scroll 0% 0%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.rating_detail_wrap .bfb {
+    font-size: 12px;
+}
+.ubar {
+    background-image: none;
+    background-color: #F6F6F1;
+    padding: 0px 10px 0px 0px;
+}
+.ubar span.now {
+    float: left;
+    background-color: #E1E1B0;
+    display: block;
+    margin: 3px 5px;    
+    padding: 1px 5px;
+}
+.read_bar {  
+    padding: 1px 15px;
+    font-size: 13px;
+}
+.reading_bar {  
+    padding: 1px 15px;
+    font-size: 13px;
+}
+.want_bar {  
+  padding: 1px 15px;
+  font-size: 13px;
+}
+#read-tab {
+  margin: 15px 2px;
+  padding: 14px 0px;
+  border-bottom: 1px solid #F5F5F5;
+}
+#read-tab .ltx {
+  float: left;
+}
+#read-tab .tx {
+  height: 48px;
+  width: 48px;
+}
+#read-tab .rtx {
+  float: left;
+  margin: 0 10px;
+  font-size: 14px;
+}
+.noinfo {
+  margin: 15px 10px;
+  font-size: 14px;
+}
+
+/*书单样式*/
+.sdbiaoti {
+    margin: 0 auto;
+    padding: 20px 0 0;
+    border-bottom: 1px dotted rgb(221, 221, 221);
+}
+.sdbiaoti .pull-left {
+    margin-right: 10px;
+}
+.sdbiaoti a img {
+    width: 50px;
+    height: 50px;
+}
+.sdbiaoti h1 {
+  word-wrap: break-word;
+  display: block;
+  font-size: 22px;
+  font-weight: normal;
+  color: #494949;
+  margin: 0;
+  padding: 0 0 5px 0;
+  line-height: 1.1;
+}
+.sdbiaoti .hyname {
+  font-size:14px;
+  padding: 0 5px;
+}
+.sdbiaoti .hytime {
+  font-size:14px;
+  padding: 0 5px;
+  color: #999999;;
+}
+.sdbiaoti .click {
+  font-size:14px;
+  padding: 0 5px;
+  color: #f4645f;
+}
+.sdjieshao {
+  padding:8px 0 0 0;
+  font-size: 16px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.editsd {
+    font-size: 14px;
+    color: #999999;
+}
+.mods {
+    width: auto;
+    border-color: #E8E8E8 -moz-use-text-color -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    margin-top: 10px;
+    padding: 0px;
+    box-shadow: none;
+    color: #666;
+    word-wrap: break-word;
+    word-break: normal;
+}
+.mods dl {
+    margin: 0px;
+    padding: 15px 0px;
+    border-top: 1px dashed #E8E8E8;
+    overflow: hidden;
+    *zoom: 1;
+}
+.mods dt {
+    float: left;
+    margin-right: 12px;
+}
+.shudaninfo dl img {
+    max-width: 80px;
+    max-height: 110px;
+    width: 90px;
+    height: 131px;
+}
+.mods .zuozhe {
+    margin-left: 6px;
+    font-size: 14px;
+    color: #999999;
+}
+.mods .jianjie {
+    font-size: 14px;
+    font-weight: blod;
+    line-height: 1.5;
+}
+.mods .delsd {
+    margin-left: 6px;
+    font-size: 14px;
+    color: #999999;
+}
+
+/*全部书评列表样式*/
+.shupinglist .liec {
+    margin: 0px 0px 10px;
+    border-bottom: 1px dashed #CCC;
+    padding-bottom: 10px;
+}
+.shupinglist .liec .ydstable {
+    width: 100%;
+    table-layout: fixed;
+}
+.shupinglist .liec img {
+    width: 90px;
+}
+.shupinglist .liec .avatar {
+    width: 100px;
+    vertical-align: top;
+}
+.shupinglist .liec .update {
+    vertical-align: top;
+}
+.shupinglist .liec .title {
+    font-size: 15px;
+}
+.shupinglist .liec .name {
+    font-size: 14px;
+}
+.shupinglist .liec .zhaiyao {
+    padding: 0px 0px 15px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #494949;
+    line-height: 1.5;
+}
+
+/*会员书单列表*/
+.ushudanlist {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.ushudanlist .sidebar {
+  width: 300px;
+  float: left;
+  padding: 0 40px 10px 0;
+  color: #666;
+  border-right: 1px dashed #d1d1d1;
+  transition: width .5;
+}
+.ushudanlist .user-info {
+  text-align: center;
+}
+.ushudanlist .user-info .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  border: 1px solid #999;
+  margin: auto;
+  overflow: hidden;
+}
+.ushudanlist .user-info .icon img {
+  width: 100px;
+  height: 100px;
+}
+.ushudanlist .user-info .name {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 3;
+  color: #000;
+}
+.ushudanlist .user-info .name a {
+    text-decoration: none;
+    color: #333;
+    transition: color .3s;
+}
+.ushudanlist .user-info .edit {
+    margin-top: 10px;
+}
+.ushudanlist .user-info .edit .btn {
+    width: 100px;
+}
+.ushudanlist .btn-green[class*="btn"] {
+    background-color: #3AAB4E;
+}
+.ushudanlist .btn.btn-lg {
+    padding: .4rem 1.2rem;
+    font-size: 1.6rem;
+}
+.ushudanlist .btn, .btn a, .active a {
+    color: #fff;
+}
+.ushudanlist .sidebar .divide {
+    width: 20%;
+    border-top: 1px dashed #d1d1d1;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    margin: 20px auto;
+}
+.ushudanlist .user-sort .title {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    line-height: 30px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.ushudanlist .user-sort .title span {
+    font-size: 1.8rem;
+    color: #000;
+}
+.ushudanlist .user-sort .title em {
+    float: right;
+    font-style: inherit;
+    font-size: 1.2rem;
+    color: #666;
+}
+.ushudanlist .user-sort .sort-list a {
+    border-radius: 15px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    margin: 2px 0;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+.ushudanlist .user-sort .sort-list .name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 15px;
+}
+.ushudanlist .user-sort .sort-list .num {
+    font-size: 1.2rem;
+    float: right;
+}
+.ushudanlist .user-sort .sort-list ul {
+    padding: 0;
+    margin: 0;
+}
+.search_list {
+    display: table-cell;
+    width: 1200px;
+    padding-left: 50px;
+}
+.search_list .navbarp {
+    line-height: 40px;
+    height: 41px;
+    position: relative;
+}
+.search_list .navbarp .nav-tabs {
+    border-bottom: 1px solid #ddd;
+    height: 41px;
+}
+.search_list .active {
+    border-bottom: 1px solid #3AAB4E;
+    color: #3AAB4E;
+}
+.search_list .navbarp .nav-tab {
+    width: 120px;
+    float: left;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #999;
+    cursor: pointer;
+}
+.search_list .shudan-list .list-item {
+    padding: 15px 12px;
+    border-bottom: 1px dotted #e1e1e1;
+}
+.search_list .shudan-list .biaoti {
+    font-size: 2.4rem;
+    color: #000;
+}
+.search_list .shudan-list .jieshao {
+    color: #666;
+    font-size: 15px;
+}
+.search_list .shudan-list .jieshao ul, li{
+    list-style-type: none;
+}
+.search_list .shudan-list .list-books {
+  padding: 10px 0;
+  margin: 0;
+}
+.search_list .shudan-list .list-books-imgs {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.search_list .shudan-list .list-books-imgs img {
+    max-width: 80px;
+    max-height: 110px;
+    width: 90px;
+    height: 131px;
+}
+.search_list .shudan-list .time {
+  color: #666;
+  font-size: 1.4rem;
+}
+
+/*全部书单列表*/
+.shudanlist {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.shudanlist .sidebar {
+  width: 300px;
+  float: left;
+  padding: 0 40px 10px 0;
+  color: #666;
+  border-right: 1px dashed #d1d1d1;
+  transition: width .5;
+}
+.shudanlist .user-info {
+  text-align: center;
+}
+.shudanlist .user-info .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  border: 1px solid #999;
+  margin: auto;
+  overflow: hidden;
+}
+.shudanlist .user-info .icon img {
+  width: 100px;
+  height: 100px;
+}
+.shudanlist .user-info .name {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 3;
+  color: #000;
+}
+.shudanlist .user-info .name a {
+    text-decoration: none;
+    color: #333;
+    transition: color .3s;
+}
+.shudanlist .user-info .edit {
+    margin-top: 10px;
+}
+.shudanlist .user-info .edit .btn {
+    width: 100%;
+}
+.shudanlist .btn-green[class*="btn"] {
+    background-color: #3AAB4E;
+}
+.shudanlist .btn.btn-lg {
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+}
+.shudanlist .btn, .btn a, .active a {
+    color: #fff;
+}
+.shudanlist .sidebar .divide {
+    width: 20%;
+    border-top: 1px dashed #d1d1d1;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    margin: 20px auto;
+}
+.shudanlist .user-sort .title {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    line-height: 30px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.shudanlist .user-sort .title span {
+    font-size: 1.8rem;
+    color: #000;
+}
+.shudanlist .user-sort .title em {
+    float: right;
+    font-style: inherit;
+    font-size: 1.2rem;
+    color: #666;
+}
+.shudanlist .user-sort .sort-list a {
+    border-radius: 15px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    margin: 2px 0;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+.shudanlist .user-sort .sort-list .name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 15px;
+}
+.shudanlist .user-sort .sort-list .num {
+    font-size: 1.2rem;
+    float: right;
+}
+.shudanlist .user-sort .sort-list ul {
+    padding: 0;
+    margin: 0;
+}

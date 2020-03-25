@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font: 12px/1.62 Helvetica,Arial,sans-serif;
+}
+.header {
+    width: 990px;
+    height: 45px;
+    margin: 0px auto;
+    text-align: left;
+    position: relative;
+    text-align: left;
+/*     background: #F5F5F5; */
+}
+.header .bg {
+    width: 300px;
+    height: 43px;
+    background-position: 3px 3px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+}
+
+.header .links a {
+    margin: 0px 5px;
+    color: #039;
+    text-decoration: none;
+}
+clear {
+    font-size: 0px;
+    line-height: 0;
+    height: 1px;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.footer {
+    text-align: center;
+    clear: both;
+    height: 40px;
+    line-height: 40px;
+    color: #999;
+    margin: auto;
+}
+.login-wrap {
+    position: relative;
+    height: 540px;
+    margin: 10px 0px 20px;
+    z-index: 5;
+}
+.w {
+    width: 1090px;
+    margin: 0px auto;
+}
+.login-wrap .login-form {
+    float: right;
+    top: 40px;
+}
+.login-form {
+    position: relative;
+    z-index: 4;
+    width: 346px;
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 20px;
+    overflow: visible;
+}
+.login-form .login-box .mt {
+    display: block;
+    width: 306px;
+    overflow: visible;
+    height: 9px;
+    margin-bottom: 20px;
+}
+.login-form .login-box .mt h1 {
+    position: relative;
+    height: 27px;
+    line-height: 27px;
+    top: -5px;
+    float: left;
+    color: #666;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+.login-form .login-box .mt .extra-r {
+    float: right;
+}
+.login-form .login-box .mt .regist-link a {
+    color: #B61D1D;
+}
+.login-form .login-box .mt::after {
+    content: ".";
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+.m-ipt {
+    margin-bottom: 20px;
+}
+.u-ipt div.iptctn {
+    height: 48px;
+    padding: 3px 18px 3px 0px;
+    background-position: right -54px;
+}
+.u-ipt input {
+    width: 100%;
+    height: 48px;
+    border: medium none;
+    /*background: transparent none repeat scroll 0% 0%; Í¸Ã÷É«*/ 
+    background: #EBEEF2 none repeat scroll 0% 0%;
+}
+.u-ipt, .u-ipt input {
+    font-size: 20px;
+    font-family: "Microsoft YaHei",Î¢ÈíÑÅºÚ,arial,ËÎÌå;
+}
+.blank {
+    height: 15px;
+    overflow: hidden;
+}
+.loginLinks {
+    text-align: center;
+    color: #CECECE;
+    float: left;
+}
+.login-wrap .login-banner {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 540px;
+    background: #F5F5F5 none repeat scroll 0% 0%;
+}
+.uslogin-color {
+    
+}
+.uslogin-banner {
+    background: #F5F5F5 url("../images/uslogin.jpg") repeat scroll 0px 0px;
+}
+.login-wrap .i-inner {
+    position: relative;
+    z-index: 3;
+    height: 540px;
+}
+#checkAlert {
+    height: 20px;
+    overflow: hidden;
+}

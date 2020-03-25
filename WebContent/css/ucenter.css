@@ -1,0 +1,531 @@
+#yds_screen {
+    width: 1080px;
+    margin: 0px auto 10px;
+    text-align: left;
+    padding: 0px 4px;
+}
+#yds_content {
+    margin: 10px 2px;
+    position: relative;
+}
+.spaceleft {
+    width: 260px;
+    float: left;
+}
+.owner {
+    background: #5CC26F none repeat scroll 0% 0%;
+    padding: 15px 5px 15px 10px;
+    position:relative;
+}
+.owner .img img {
+    float: left;
+    width: 56px;
+    height: 56px;
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 3px;
+    margin: 0px 8px 10px 0px;
+}
+.owner span.u {
+    float: left;
+    width: 180px;
+}
+.owner span.u .name {
+    color: #FFF;
+    font-size: 14pt;
+    display: block;
+    margin: 0px 0px 1px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+.owner span.u .city {
+    color: #FFF;
+    font-size: 14px;
+    display: block;
+    margin: 0px 0px 1px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+.owner span.u .opts {
+    color: #FFF;
+    font-size: 9pt;
+}
+.owner a {
+    color: #FFF;
+    padding: 0px;
+}
+.clear {
+    clear: both;
+    font-size: 1px;
+    line-height: 0;
+}
+.owner .stat {
+    color: #FFF;
+    font-size: 9pt;
+    margin: 10px 0 0;
+}
+.owner .stat a {
+    margin-right: 3px;
+}
+.resume {
+    background: #7798CB url("/images/resume.png") no-repeat scroll left bottom;
+    margin: 3px 0px 0px;
+    color: #FFF;
+    padding: 10px 9px 10px 30px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.mod {
+    background: #EAEAEA none repeat scroll 0% 0%;
+    margin: 3px 0px 0px;
+    padding: 5px 0px;
+    color: #666;
+    overflow: hidden;
+}
+.mod strong {
+    display: block;
+    font-size: 12pt;
+    border-bottom: 2px solid #7798CB;
+    padding: 0px 10px 5px;
+    color: #666;
+}
+.mod ul, .mod ol {
+    margin: 10px;
+    line-height: 24px;
+    list-style-type: none;
+    padding: 0px;
+    font-size: 12pt;
+}
+#blogcatalogs ul li a {
+    /*background: transparent url("/images/fw_arrow.gif") no-repeat scroll left center;*/
+    padding-left: 15px;
+    color: #333;
+}
+#blogcatalogs ul li span {
+    color: #666;
+    font-size: 8pt;
+    margin-left: 5px;
+}
+.users ul li {
+    float: left;
+}
+.users ul li a {
+    margin: 1px 1px 0px 0px;
+}
+.users ul li img {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #EAEAEA;
+}
+.clearfix {
+    display: block;
+}
+.users .more {
+    margin: 10px 0px;
+    text-align: right;
+    padding: 0px 5px 0px 0px;
+    font-size: 10pt;
+}
+.spaceList {
+    margin: 0px 0px 0px 270px;
+    border: 1px solid #EEE;
+    padding: 10px 15px;
+    background: #FFF none repeat scroll 0% 0%;
+    word-wrap: break-word;
+}
+.nodata {
+    text-align: center;
+    padding: 20px 0px;
+    color: #999;
+    font-size: 11pt;
+}
+.opts {
+    margin: 3px 0px 0px;
+}
+.opts a.a1 {
+    background-color: #5CC26F;
+    text-decoration: none;
+    cursor: pointer;
+    width: 127px;
+    height: 108px;
+    float: left;
+}
+.opts a.sendmsg i {
+    background-position: 0px -134px;
+}
+.opts a.blog i {
+    background-position: 0px -67px;
+}
+.opts a.books i {
+    background-position: 0px -67px;
+}
+.opts a.admin i {
+    background-position: 0px -201px;
+}
+.opts a i {
+    text-indent: -9999px;
+    display: block;
+    margin: 10px 0px 0px 20px;
+    width: 67px;
+    height: 67px;
+    background-image: url("/images/space-opts.png");
+}
+.opts a span {
+    padding: 82px 0px 0px 10px;
+    font-size: 11pt;
+    color: #FFF;
+}
+.opts a.a2 {
+    margin-left: 5px;
+    background-color: #5CC26F;
+    text-decoration: none;
+    cursor: pointer;
+    width: 127px;
+    height: 108px;
+    float: left;
+}
+.opts a i {
+    text-indent: -9999px;
+    display: block;
+    margin: 10px 0px 0px 20px;
+    width: 67px;
+    height: 67px;
+    background-image: url("/images/space-opts.png");
+}
+/*浼氬憳娣诲姞鍥句功*/
+#yds_content .article {
+    float: left;
+    width: 700px;
+    padding-right: 40px;
+}
+#yds_content .review {
+    float: left;
+    width: 750px;
+    padding-right: 40px;
+}
+#yds_content .aside {
+    float: right;
+    width: 310px;
+}
+#yds_content .aside p {
+    font-size: 10pt;
+    margin-bottom: 5px;
+}
+#yds_content h1 {
+    margin: 0.67em 0px;
+    font-size: 20px;
+    font-weight: 200;
+}
+label {
+     font-weight: normal;
+}
+.aside .indent {
+    margin: 40px 0 40px 0;
+}
+.pl2 {
+    font: 12pt "Microsoft YaHei","寰蒋闆呴粦",Arial,verdana,Tahoma;
+    color: #666;
+}
+.rebook img{
+    max-width: 150px;
+}
+.rebook span.p1 {
+    font: 10pt "Microsoft YaHei","寰蒋闆呴粦",Arial,verdana,Tahoma;
+    color: #666;
+}
+.form-control {
+  display: inline;
+}
+p.notice {
+    background: #FDF8E7 none repeat scroll 0% 0%;
+    color: #666;
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 150px;
+}
+}
+.touxiang {
+  float: right;
+}
+.pil {
+    height: 48px;
+    width: 48px;
+    float: left;
+}
+.mn span{
+    font: 14px/150% "Microsoft YaHei","寰蒋闆呴粦",Arial,verdana,Tahoma;
+    color: #072;
+    margin: 0 10px 0 10px;
+}
+.reviewtext {
+    margin: 25px auto;
+    font-size: 15px;
+    font-family: "Microsoft YaHei","寰蒋闆呴粦",Arial,verdana,Tahoma;
+    font-weight: normal;
+    color: #525252;
+    line-height: 1.5;
+}
+.ratingstar1 {
+    background-position: 0px -30px;
+}
+.ratingstar {
+    display: inline-block;
+    background: transparent url("/images/ic_rating_m.png") no-repeat scroll 0% 0%;
+    width: 75px;
+    height: 15px;
+    margin: 1px 0px 0px;
+    overflow: hidden;
+}
+.review .pinglun {
+    padding-bottom: 10px;
+}
+.review .uname {
+    font-family: "Microsoft YaHei", "寰蒋闆呴粦", Arial, verdana, Tahoma;
+    font-style: normal;
+    font-size:15px;
+}
+.review img {
+    width: 30px;
+    height: 30px;
+}
+.review .touxiang img {
+    width: 45px;
+    height: 45px;
+}
+
+.review .form-group {
+    margin-bottom: 10px;
+}
+.review .right{
+    float: right;
+}
+.review .comment-list {
+    padding-top: 15px;
+}
+.review .comment-item {
+    margin-bottom: 25px;
+}
+.review .comment-list .comment-item .avatar {
+    margin-right: 10px;
+    float: left;
+}
+.review .comment-list .avatar img{
+    width: 42px;
+    height: 42px;
+}
+.review .comment-list .content{
+    padding-left:50px;
+}
+.review .comment-list .content .header{
+    font-family: "Microsoft YaHei", "寰蒋闆呴粦", Arial, verdana, Tahoma;
+    font-style: normal;
+    font-size: 15px;
+}
+.review .comment-list .content .header span {
+    margin-left: 8px;
+    font-style: normal;
+    font-size: 13px;
+    color: #808080;
+}
+.review .comment-list .comment-text{
+    font-family: "Microsoft YaHei", "寰蒋闆呴粦", Arial, verdana, Tahoma;
+    font-style: normal;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+.userlist h1 {
+    border-bottom: 1px solid #CCC;
+    margin: 0px 0px 10px;
+    padding-bottom: 15px;
+    color: #666;
+    font-weight: 200;
+}
+.userlist h1 .subtitle {
+    font-size: 10pt;
+    font-weight: normal;
+    color: #666;
+    margin-left: 10px;
+}
+.userlist .liec {
+    margin: 0px 0px 10px;
+    border-bottom: 1px dashed #CCC;
+    padding-bottom: 10px;
+}
+.userlist .liec img {
+    width: 50px;
+    height: 50px;
+}
+.userlist .liec .bookimg img {
+    width: 90px;
+    height: 125px;
+}
+.userlist .liec .name {
+    font-weight: bold;
+    font-size: 14px;
+}
+.userlist .liec .namebag {
+    font-size: 14px;
+}
+.userlist .liec .beizhubag {
+    font: 12px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    color: #666666;
+}
+.userlist .liec .editbag {
+    font: 12px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    color: #666666;
+    float: right
+}
+.userlist .liec .editbag span {
+    padding-left: 10px;
+}
+.userlist .liec .jiagebag {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+.userlist .liec .city {
+    font-weight: normal;
+    font-size: 14px;
+}
+.userlist .liec .time {
+    font-weight: normal;
+    font-size: 14px;
+}
+.userlist .liec .ydstable {
+    width: 100%;
+    table-layout: fixed;
+}
+.userlist .liec .avatar {
+    width: 55px;
+}
+.userlist .liec .update span {
+    margin: 0 10px;
+}
+.userlist .liec .opts {
+    text-align: right;
+    width: 80px;
+}
+.userlist .liec .opts a {
+    display: block;
+    font-size: 14px;
+}
+.userlist .nodata {
+    text-align: center;
+    padding: 20px 0px;
+    color: #999;
+}
+.reviewslist h1 {
+    border-bottom: 1px solid #CCC;
+    margin: 0px 0px 10px;
+    padding-bottom: 15px;
+    color: #666;
+    font-weight: 200;
+}
+.reviewslist h1 .subtitle {
+    font-size: 10pt;
+    font-weight: normal;
+    color: #666;
+    margin-left: 10px;
+}
+.reviewslist .liec {
+    margin: 0px 0px 10px;
+    border-bottom: 1px dashed #CCC;
+    padding-bottom: 10px;
+}
+.reviewslist .liec .ydstable {
+    width: 100%;
+    table-layout: fixed;
+}
+.reviewslist .liec img {
+    width: 90px;
+}
+.reviewslist .liec .avatar {
+    width: 100px;
+    vertical-align: top;
+}
+.reviewslist .liec .update {
+    vertical-align: top;
+}
+.reviewslist .liec .title {
+    font-size: 15px;
+}
+.reviewslist .liec .name {
+    font-size: 14px;
+}
+.reviewslist .liec .zhaiyao {
+    padding: 0px 0px 15px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #494949;
+    line-height: 1.5;
+}
+.adminnav {
+    background: #5CC26F none repeat scroll 0% 0%;
+    padding: 10px;
+    font-size: 14pt;
+}
+.adminnav img {
+    width: 40px;
+    height: 40px;
+}
+.adminnav a {
+    font-size: 14pt;
+    color: #ffffff;
+}
+.adminmenus {
+    font-size: 10.5pt;
+    background: #EAEAEA none repeat scroll 0% 0%;
+    margin: 3px 0px 0px;
+    padding: 5px 0px;
+    color: #666;
+    overflow: hidden;
+}
+.adminmenus ul, .adminmenus ol {
+    line-height: 24px;
+    margin: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+.adminmenus li.caption {
+    margin-bottom: 20px;
+}
+.adminmenus strong {
+    display: block;
+    font-size: 12pt;
+    border-bottom: 2px solid #7798CB;
+    padding: 0px 10px 5px;
+    color: #666;
+}
+.adminmenus li.caption ol {
+    line-height: 26px;
+    margin: 10px 0px 0px;
+}
+.adminmenus li.caption ol li {
+    padding-left: 10px;
+}
+.adminbody .adminhead {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 20px;
+}
+.adminbody .adminhead h1 {
+    color: #666;
+    margin-bottom: 15px;
+}
+.mainform {
+    font-size: 12pt;
+}
+.mainform span {
+    margin: 0 5px;
+    line-height: 55px;
+}
+.mainform .bton {
+    text-align: right;
+    margin: 10px 0 30px 0;
+}
+.mainform .btn {
+    padding: 10px 60px;
+}
+#yds_content .article table{
+    font-size: 14px;
+}
